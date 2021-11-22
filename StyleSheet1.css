@@ -1,0 +1,44 @@
+﻿body
+{
+  background-color: lightblue;
+}
+nav {
+    /*float to the left and if there is extra space of available room to the right, let other elements sit there, so the photo is to the right of bullet list*/
+    float: left;
+    /*could use pixels but good to stay away because httmls could be displayed on many different size screens*/
+    height: 100vh;
+    background-color: black;
+    padding: 30px;
+}
+
+
+li a {
+    background-color: white;
+    color: red;
+    padding: 1em 1.5em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    margin: 25px;
+}
+#Main {
+    background-color: white;
+    border: 5px solid black;
+    margin: 45px;
+    padding: 15px;
+    /*making my width25% is smaller than his 25%*/
+    width: 45%;
+    box-shadow: 0 4px 80px 0 rgba(0,0,0,0.8);
+    float: left;
+    margin: 5;
+}
